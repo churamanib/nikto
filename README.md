@@ -1,17 +1,16 @@
 
 nikto
 =====
-[![alt text](https://cirt.net/images/patreon.png "Become a patron of Nikto!")](https://www.patreon.com/sullo)
+[![alt text]([https://github.com/churamanib "Become a patron of Nikto!")](https://github.com/churamanib)
 
 
-Nikto web server scanner  - https://cirt.net/Nikto2 
+Nikto web server scanner  - https://github.com/churamanib
 
-Full documentation - https://github.com/sullo/nikto/wiki
-
+Full documentation - https://github.com/churamanib
 Run normally:
 
 ~~~
-git clone https://github.com/sullo/nikto
+https://github.com/churamanib/nikto.git
 # Main script is in program/
 cd nikto/program
 # Run using the shebang interpreter
@@ -23,7 +22,7 @@ perl nikto.pl -h http://www.example.com
 Run as a Docker container:
 
 ~~~bash
-git clone https://github.com/sullo/nikto.git
+https://github.com/churamanib/nikto.git
 cd nikto
 docker build -t sullo/nikto .
 # Call it without arguments to display the full help
